@@ -69,8 +69,8 @@ module JingdongFu
     end
 
     def sorted_params(options)
-      param = options.delete(:param)
-      options['360buy_param_json'] = param.to_json
+      params = options.delete(:params)
+      options['360buy_param_json'] = params.to_json
       {
         :app_key      => @settings['app_key'],
         :access_token => @settings['access_token'],
