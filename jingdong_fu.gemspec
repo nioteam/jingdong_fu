@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'jingdong_fu'
-  s.version     = '1.0'
+  s.version     = '1.1'
   s.summary     = "Ruby client for JOS platform."
   s.description = "Ruby client for JOS platform."
   s.authors     = ["nioteam"]

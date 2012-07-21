@@ -6,14 +6,11 @@ defaults: &defaults
 development:
   <<: *defaults
   is_sandbox: false # If true, it will work under the sandbox environment(tbsandbox.com, not taobao.com).
-  use_curl: false   # If true, it will use gem "patron" as the REST client.
 
 test:
   <<: *defaults
   is_sandbox: ture
-  use_curl: false
 
 production:
   <<: *defaults
   is_sandbox: false
-  use_curl: true
